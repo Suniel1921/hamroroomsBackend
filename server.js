@@ -45,7 +45,7 @@ app.use('/api/v1/upload', fileUpload);
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("Welcome to hamro rooms by Suniel Sharma ");
+  res.send("Welcome to the hamrorooms where you can find your dream room easily.. ");
 });
 
 // Error handling middleware
